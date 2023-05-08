@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --highlight: #76abf6;
+    --blue-graident: linear-gradient(180deg, #0d1752 0%, #050a1e 100%);
+    --green: #96B15B;
+    --dark-blue: #060B23;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: var(--dark-blue);
+    font-family: Inter;
+    color:#cecece;
+    margin:10px 0px;
+    font-weight: 300;
+}
+
